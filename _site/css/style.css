@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-    background-color: #e8e7e4; 
+    background-color: #e8e7e4;
 }
 
 /* -- HEADER -- */
@@ -67,28 +67,28 @@ body {
 }
 
 .me__first-line {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .me__second-line {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .me {
     display: flex;
-    flex-direction: column-reverse;
+    
     align-items: center;
-    text-align: left;
+    flex-direction: column;
+    text-align: center;
     margin: 30px;
-    font-size: 20px;
 }
+
 
 .about-me {
     background-color: #c5cfdc;
     color: #003049;
-    margin: 0 30px;
-    margin-bottom: 50px;
-    padding: 20px 40px;
+    margin: 20px 40px;
+    padding: 10px 30px;
     text-align: center;
 }
 
@@ -124,22 +124,69 @@ body {
     padding-bottom: 10px;
 }
 
-.footer__name,
-.footer__number,
-.footer__email {
+.contact {
     text-decoration: none;
+}
+
+.contact__name--footer,
+.contact__email--footer,
+.contact__number--footer {
     color:#e8e7e4;
 }
+
+.contact__email--contact,
+.contact__number--contact {
+    color: #003049;
+}
+
 
 .linkedin-logo {
     width: 50px;
 }
 
+.form-field input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.content__jobs {
+    margin: 20px 40px;
+}
+
+.job {
+    margin-top: 20px;
+    padding: 30px 30px;
+    background-color: #c5cfdc;
+    max-height: 600px;
+    text-align: center;
+}
+
+
 @media (min-width: 700px) {
+    .about-me {
+    margin: 50px 100px;
+    padding: 20px 100px;
+    }
   .footer {
     display: flex;
     justify-content: space-around;
   }
+  .form-field input {
+    width: 50%;
+}
+textarea {
+    width: 60%;
+}
+.content__jobs {
+    margin: 50px 100px;
+}
+.job {
+    padding: 40px 100px;
+    text-align: left;
+}
 }
 
 .menu__checkbox {
@@ -183,37 +230,106 @@ body {
     .menu__item {
         padding-bottom: 0;
     }
-    } 
-    .me {
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 70px;
-    }
-    .image {
-        width: 450px;
     }
 
-.contact-me {
-    margin-left: 50px;
+
+    @media screen and (min-width: 900px) {
+    .me {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 100px;
+        text-align: left;
+    }
+    .image {
+     width: 500px;
+     height: 400px;
+    }
+
+     .me__first-line {
+    font-size: 50px;
+     }
+
+      .form-field input {
+    width: 25%;
 }
+textarea {
+    width: 40%;
+}
+}
+
+.me__second-line {
+    font-size: 35px;
+    }
+
+.form {
+    padding: 0 60px;
+}
+
 
 label {
     display: block;
-    margin-top: 10px;
 }
 
-.name__field {
-    margin-left: 50px;
+
+
+
+
+.form-field {
+    margin-top: 20px;
 }
 
-form {
-    width: 100%;
-    max-width: 400px;
+
+
+
+  @media screen and (min-width: 900px) {
+.content__contact {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
 }
 
-.form-field input {
-    width: 100%;
+.form {
+    background-color: #c5cfdc;
+    padding-bottom: 4px;
 }
+
+.content__contact {
+    display: block;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
+.contact__first-part {
+    text-align: center;
+}
+
+
+.contact__heading--second {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.jobs__heading {
+    text-align: center;
+}
+.job__logo {
+    max-width: 200px;
+}
+
+
+
+
+
+
+
+
 
 
 

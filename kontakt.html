@@ -2,55 +2,76 @@
 layout: template.njk
 title: Kontakt
 ---
-<h2 class="contact-me">Ozvěte se mi!</h2>
+<div class="content__contact">
+    <div class="contact__first-part">
+        <h2 class="contact__heading contact__heading--first">Kontakt</h2>
+        <p>Filip Havíř</p>
+        <p>DevOps Engineer</p>
+        
+    <p class=><a class="contact contact__email--contact" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
+    <p class=><a class="contact contact__number--contact" href="callto:+420 733 483 982">+420 733 483 982</a></p>
+        <a href="https://cz.linkedin.com/in/filiphavir/cs" target="_blank">
+        <img class="linkedin-logo" src="/img/linkedin-logo.webp" alt="logo Linkedin">
+    </a>
+    </div>
 
 
-<form action="">
-<div class="name__field">
-    <label for="jmeno">Jméno</label>
-    
-    <input type="text"
-    name="jmeno"
-    id="jmeno"
-    size="20"
-    maxlength="10"
-    required>
+    <div class="form">
+    <h2 class="contact__heading contact__heading--second">Ozvěte se mi!</h2>
+
+
+    <form action="">
+    <div class="form-field">
+        <label for="jmeno">Jméno *</label>
+        
+        <input type="text"
+        name="jmeno"
+        id="jmeno"
+        maxlength="20"
+        required>
+    </div>
+
+    <div class="form-field">
+        <label for="prijmeni">Příjmení *</label>
+        
+        <input type="text"
+        name="prijmeni"
+        id="prijmeni"
+        maxlength="20"
+        required>
+    </div>
+
+    <div class="form-field">
+        <label for="email">E-mail *</label>
+        
+        <input type="email"
+        name="email"
+        id="email"
+        required>
+    </div>
+
+    <div class="form-field">
+        <label for="telefon">Mobil *</label>
+        
+        <input type="tel"
+        name="telefon"
+        id="telefon"
+        placeholder="+420 123 456 789"
+        required>
+    </div>
+   
+
+    <div class="form-field">
+        <label for="poznamka">Poznámka *</label>
+        <textarea name="poznamka" id="poznamka" rows="10" cols="60" required></textarea>
+        
+    </div>
+
+    <button type="submit">Odeslat</button>
+
+    <p><i>* Pole označená hvězdičkou jsou povinná.</i></p>
+    </form>
+    </div>
+
+
 </div>
-
-<div>
-    <label for="prijmeni">Příjmení</label>
-    
-    <input type="text"
-    name="prijmeni"
-    id="prijmeni"
-    size="20"
-    maxlength="10"
-    required>
-</div>
-
-<div>
-    <label for="email">E-mail</label>
-    
-    <input type="email"
-    name="email"
-    id="email"
-    required>
-</div>
-
-<div>
-    <label for="telefon">Mobil</label>
-    
-    <input type="tel"
-    name="telefon"
-    id="telefon"
-    placeholder="+420 123 456 789"
-    required>
-</div>
-
-<div>
-    <textarea name="Poznámka" id="poznamka" required>Poznámka</textarea>
-</div>
-
-<button type="submit">Odeslat</button>
-
-</form>
