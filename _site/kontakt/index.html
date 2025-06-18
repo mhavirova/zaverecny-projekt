@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-    <div class="content">
+        <div class="content">
 
+            <!-- Menu -->
+            <header class="header">
 
-<header class="header">
+                <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" class="menu__toggler">☰</label>
 
-     <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
-        <label for="menu-checkbox" class="menu__toggler">☰</label>
+                <a class="heading__name" href="/">
+                    <h2 class="heading__text">Filip Havíř</h2>
+                </a>
+                
+                <ul class="menu__list">
+                <li class="menu__item"> <a class="link menu__link" href="/">Domů</a></li>
+                <li class="menu__item"> <a class="link menu__link" href="/omne/">O mně</a></li>
+                <li class="menu__item"> <a class="link menu__link" href="/zkusenosti/">Zkušenosti</a></li>
+                <li class="menu__item"> <a class="link menu__link" href="/spoluprace/">Spolupráce</a></li>
+                <li class="menu__item"> <a class="link menu__link" href="/kontakt/">Kontakt</a></li>
+                </ul>
+                
+            </header>
 
-   <a class="heading__name" href="/">
-   <h2 class="heading__text">Filip Havíř</h2>
-   </a>
-    
-    <ul class="menu__list">
-      <li class="menu__item"> <a class="menu__link" href="/">Domů</a></li>
-      <li class="menu__item"> <a class="menu__link" href="/omne/">O mně</a></li>
-      <li class="menu__item"> <a class="menu__link" href="/zkusenosti/">Zkušenosti</a></li>
-      <li class="menu__item"> <a class="menu__link" href="/spoluprace/">Spolupráce</a></li>
-      <li class="menu__item"> <a class="menu__link" href="/kontakt/">Kontakt</a></li>
-    </ul>
-    
-   
-  </header>
-
-<div class="content__contact">
+            <div class="contact">
     <div class="contact__first-part">
         <h2 class="contact__heading contact__heading--first">Kontakt</h2>
         <p>Filip Havíř</p>
         <p>DevOps Engineer</p>
         
-    <p class=><a class="contact contact__email--contact" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
-    <p class=><a class="contact contact__number--contact" href="callto:+420 733 483 982">+420 733 483 982</a></p>
+    <p class=><a class="link contact__email--dark" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
+    <p class=><a class="link contact__number--dark" href="callto:+420733483982">+420 733 483 982</a></p>
         <a href="https://cz.linkedin.com/in/filiphavir/cs" target="_blank">
         <img class="linkedin-logo" src="/img/linkedin-logo.webp" alt="logo Linkedin">
     </a>
@@ -52,7 +51,8 @@
     <h2 class="contact__heading contact__heading--second">Ozvěte se mi!</h2>
 
 
-    <form action="">
+    <form action="https://submit-form.com/hgB8cMNE5" method="post">
+        <input type="hidden" name="_redirect" value=""/>
     <div class="form-field">
         <label for="jmeno">Jméno *</label>
         
@@ -99,7 +99,7 @@
         
     </div>
 
-    <button type="submit">Odeslat</button>
+    <button class="button__form" type="submit">Odeslat</button>
 
     <p><i>* Pole označená hvězdičkou jsou povinná.</i></p>
     </form>
@@ -108,21 +108,25 @@
 
 </div>
 
-  <footer class="footer">
-    <a class="contact contact__name--footer" href="/">
-        <p>Filip Havíř</p>
-    </a>
-    <p class=><a class="contact contact__number--footer" href="callto:+420733483982">+420 733 483 982</a></p>
-    <p class=><a class="contact contact__email--footer" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
-    <a href="https://cz.linkedin.com/in/filiphavir/cs" target="_blank">
-        <img class="linkedin-logo" src="/img/linkedin-logo.webp" alt="logo Linkedin">
-    </a>
-</footer>
+            <!-- Footer -->
+            <footer class="footer">
+
+                <a class="link contact__name--light" href="/">
+                    <p>Filip Havíř</p>
+                </a>
+
+                <p class=><a class="link contact__number--light" href="callto:+420733483982">+420 733 483 982</a></p>
+                <p class=><a class="link contact__email--light" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
+
+                <a href="https://cz.linkedin.com/in/filiphavir/cs" target="_blank">
+                    <img class="linkedin-logo" src="/img/linkedin-logo.webp" alt="logo Linkedin">
+                </a>
+            
+            </footer>
 
 
-
-</div>
-</body>
+        </div>
+    </body>
 </html>
 
 

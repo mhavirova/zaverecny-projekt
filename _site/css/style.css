@@ -48,7 +48,6 @@ body {
   display: block;
   padding: 8px 30px;
   color: #e8e7e4;
-  text-decoration: none;
   font-size: 18px;
   text-align: center;
   border: 1px solid #e8e7e4;
@@ -105,6 +104,7 @@ body {
 
 .link {
     text-decoration: none;
+    text-align: center;
 }
 
 .button:hover,
@@ -124,18 +124,15 @@ body {
     padding-bottom: 50px;
 }
 
-.contact {
-    text-decoration: none;
-}
 
-.contact__name--footer,
-.contact__email--footer,
-.contact__number--footer {
+.contact__name--light,
+.contact__email--light,
+.contact__number--light {
     color:#e8e7e4;
 }
 
-.contact__email--contact,
-.contact__number--contact {
+.contact__email--dark,
+.contact__number--dark {
     color: #003049;
 }
 
@@ -144,15 +141,35 @@ body {
     width: 50px;
 }
 
-.form-field input {
-    width: 100%;
-}
-
+.form-field input,
 textarea {
     width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #003049;
+    border-radius: 2px;
 }
 
-.content__jobs {
+.button__form {
+    width: 100px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 15px;
+    background-color: #e8e7e4;
+    color: #003049;
+    border: 1px solid #003049;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.button__form:hover{
+ background-color: #003049;
+ color: #e8e7e4;
+}
+
+.jobs {
     margin: 20px 40px;
 }
 
@@ -173,6 +190,7 @@ textarea {
   .footer {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10px;
   }
   .form-field input {
     width: 50%;
@@ -180,7 +198,7 @@ textarea {
 textarea {
     width: 60%;
 }
-.content__jobs {
+.jobs {
     margin: 50px 100px;
 }
 .job {
@@ -241,7 +259,7 @@ textarea {
         margin: 50px 100px;
         text-align: left;
     }
-    .image {
+    .me__image {
      width: 500px;
      height: 400px;
     }
@@ -283,7 +301,7 @@ label {
 
 
   @media screen and (min-width: 900px) {
-.content__contact {
+.contact {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -296,12 +314,8 @@ label {
     padding-bottom: 4px;
 }
 
-.content__contact {
-    display: block;
-}
-
 .contact {
-    text-align: center;
+    display: block;
 }
 
 

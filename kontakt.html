@@ -2,14 +2,14 @@
 layout: template.njk
 title: Kontakt
 ---
-<div class="content__contact">
+<div class="contact">
     <div class="contact__first-part">
         <h2 class="contact__heading contact__heading--first">Kontakt</h2>
         <p>Filip Havíř</p>
         <p>DevOps Engineer</p>
         
-    <p class=><a class="contact contact__email--contact" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
-    <p class=><a class="contact contact__number--contact" href="callto:+420 733 483 982">+420 733 483 982</a></p>
+    <p class=><a class="link contact__email--dark" href="mailto:havirfilip@gmail.com">havirfilip@gmail.com</a></p>
+    <p class=><a class="link contact__number--dark" href="callto:+420733483982">+420 733 483 982</a></p>
         <a href="https://cz.linkedin.com/in/filiphavir/cs" target="_blank">
         <img class="linkedin-logo" src="/img/linkedin-logo.webp" alt="logo Linkedin">
     </a>
@@ -20,7 +20,8 @@ title: Kontakt
     <h2 class="contact__heading contact__heading--second">Ozvěte se mi!</h2>
 
 
-    <form action="">
+    <form action="https://submit-form.com/hgB8cMNE5" method="post">
+        <input type="hidden" name="_redirect" value=""/>
     <div class="form-field">
         <label for="jmeno">Jméno *</label>
         
@@ -67,7 +68,7 @@ title: Kontakt
         
     </div>
 
-    <button type="submit">Odeslat</button>
+    <button class="button__form" type="submit">Odeslat</button>
 
     <p><i>* Pole označená hvězdičkou jsou povinná.</i></p>
     </form>
