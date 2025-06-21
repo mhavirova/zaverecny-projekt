@@ -60,7 +60,6 @@ body {
   display: block;
   padding: 8px 30px;
   color: #e8e7e4;
-  font-size: 18px;
   text-align: center;
   border: 1px solid #e8e7e4;
 }
@@ -135,6 +134,7 @@ body {
     margin: 20px 40px;
     padding: 10px 30px;
     text-align: center;
+    border-radius: 6px;
 }
 
 .about-me__button {
@@ -181,6 +181,7 @@ body {
     background-color: #fafaf9;
     max-height: 600px;
     text-align: center;
+    border-radius: 6px;
 }
 
 /* -- Page zkusenosti -- */
@@ -191,6 +192,7 @@ body {
     background-color: #c5cfdc;
     max-height: 600px;
     text-align: center;
+    border-radius: 6px;
 }
 
 .job__logo {
@@ -277,6 +279,10 @@ label {
     .about-me {
         margin: 50px 100px;
         padding: 20px 100px;
+    }
+    
+    .form {
+        border-radius: 6px;
     }
 
     .form-field input {
