@@ -169,14 +169,27 @@ textarea {
  color: #e8e7e4;
 }
 
-.jobs {
+.page {
     margin: 20px 40px;
 }
+
+.page--just-text {
+    margin: 20px 40px 300px 40px;
+}
+
 
 .job {
     margin-top: 20px;
     padding: 30px 30px;
     background-color: #c5cfdc;
+    max-height: 600px;
+    text-align: center;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 30px 30px;
+    background-color: #fafaf9;
     max-height: 600px;
     text-align: center;
 }
@@ -197,13 +210,6 @@ textarea {
 }
 textarea {
     width: 60%;
-}
-.jobs {
-    margin: 50px 100px;
-}
-.job {
-    padding: 40px 100px;
-    text-align: left;
 }
 }
 
@@ -248,6 +254,14 @@ textarea {
     .menu__item {
         padding-bottom: 0;
     }
+    .job {
+        padding: 40px 100px;
+        text-align: left;
+    }
+    .info {
+        padding: 40px 100px;
+        text-align: left;
+    }
     }
 
 
@@ -290,7 +304,9 @@ label {
 }
 
 
-
+.contact {
+    display: block;
+}
 
 
 .form-field {
@@ -298,10 +314,15 @@ label {
 }
 
   @media screen and (min-width: 900px) {
+
+.page--just-text {
+    margin: 50px 100px 400px 100px;
+}
+.page {
+    margin: 50px 100px;
+}
+
 .contact {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
     margin: 50px 100px;
 }
 }
@@ -311,9 +332,7 @@ label {
     padding-bottom: 4px;
 }
 
-.contact {
-    display: block;
-}
+
 
 .contact__first-part {
     text-align: center;
@@ -324,12 +343,13 @@ label {
     padding-top: 20px;
 }
 
-.jobs__heading {
-    text-align: center;
-}
 
 .job__logo {
     max-width: 200px;
+}
+
+.heading {
+    text-align: center;
 }
 
 
