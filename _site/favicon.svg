@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+<path d="M0 0 C168.96 0 337.92 0 512 0 C512 168.96 512 337.92 512 512 C343.04 512 174.08 512 0 512 C0 343.04 0 174.08 0 0 Z " fill="#E7E6E3" transform="translate(0,0)"></path>
+<path d="M0 0 C10.89 0 21.78 0 33 0 C33 68.64 33 137.28 33 208 C22.11 208 11.22 208 0 208 C0 177.64 0 147.28 0 116 C-24.09 116 -48.18 116 -73 116 C-73 146.36 -73 176.72 -73 208 C-83.56 208 -94.12 208 -105 208 C-105 139.69 -105 71.38 -105 1 C-94.44 1 -83.88 1 -73 1 C-73 29.05 -73 57.1 -73 86 C-48.91 86 -24.82 86 0 86 C0 57.62 0 29.24 0 0 Z " fill="#013049" transform="translate(373,152)"></path>
+<path d="M0 0 C43.23 0 86.46 0 131 0 C131 10.23 131 20.46 131 31 C98.99 31 66.98 31 34 31 C34 50.47 34 69.94 34 90 C61.39 90 88.78 90 117 90 C117 99.9 117 109.8 117 120 C89.61 120 62.22 120 34 120 C34 149.04 34 178.08 34 208 C22.78 208 11.56 208 0 208 C0 139.36 0 70.72 0 0 Z " fill="#01314A" transform="translate(107,152)"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
