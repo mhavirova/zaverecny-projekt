@@ -112,8 +112,8 @@ body {
 }
 
 .me__image {
-     width: 300px;
-     height: 240px;
+     width: 200px;
+     height: 200px;
 }
 
 .me__first-line {
@@ -341,7 +341,7 @@ label {
     }
 
     .me__image {
-        width: 500px;
+        width: 400px;
         height: 400px;
     }
  
